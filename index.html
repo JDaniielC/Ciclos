@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ciclos de Gales/Soros </title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://static.cdnpub.info/v5/static/images/favicon.75197939de8fdf88993ac5093a182d13.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <table class="table table-bordered table-responsive-x1">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class = "result-container">
+        <input type="text" class="form-control" id = "result">
+        <button class="btn btn-secondary" onclick="copy()">
+            Copiar texto
+        </button>
+    </div>
+    <button class="btn btn-primary" onclick = "generateJson()">
+        Gerar tabela
+    </button>
+</body>
+<script>
+    loadTable();
+</script>
+</html>

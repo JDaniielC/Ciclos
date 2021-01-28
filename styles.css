@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.result-container {
+    display: flex;
+    margin: 1em 0;
+}
